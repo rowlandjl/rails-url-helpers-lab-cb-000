@@ -11,6 +11,7 @@ class StudentsController < ApplicationController
   def activate
     curr_status = @student.active 
    @student.active = !curr_status
+   @student.update 
   end 
 
   private
