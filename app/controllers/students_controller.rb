@@ -9,6 +9,7 @@ class StudentsController < ApplicationController
   end
   
   def activate
+    redirect_to 
   end 
 
   private
