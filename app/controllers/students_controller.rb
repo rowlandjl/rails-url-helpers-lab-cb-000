@@ -9,7 +9,7 @@ class StudentsController < ApplicationController
   end
   
   def activate
-    @student 
+    @student.active  
   end 
 
   private
