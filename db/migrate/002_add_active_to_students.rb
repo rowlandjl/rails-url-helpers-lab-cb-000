@@ -1,1 +1,1 @@
-class AddActiveToStudents 
+class AddActiveToStudents < 
