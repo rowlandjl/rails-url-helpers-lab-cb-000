@@ -10,7 +10,7 @@ class StudentsController < ApplicationController
   
   def edit 
     curr_status = @student.active 
-   @student.active = !@student.active
+   @student.active = !curr_status
   end 
 
   private
