@@ -8,7 +8,7 @@ class StudentsController < ApplicationController
   def show
   end
   
-  def edit 
+  def activate
     curr_status = @student.active 
    @student.active = !curr_status
   end 
