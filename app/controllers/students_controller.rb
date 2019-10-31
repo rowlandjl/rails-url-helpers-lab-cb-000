@@ -9,7 +9,7 @@ class StudentsController < ApplicationController
   end
   
   def edit 
-    !@student.active
+   @student.active = !@student.active
   end 
 
   private
